@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="商品名字："
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/et_sales_name"
+                android:layout_toRightOf="@id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_alignTop="@+id/et_sales_price"
+                android:layout_below="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="商品价格："
+                android:textSize="30dp"
+                />
+
+            <EditText
+                android:id="@+id/et_sales_price"
+                android:layout_toRightOf="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_below="@+id/et_sales_name"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_alignTop="@+id/et_sales_des"
+                android:layout_below="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商品详情："
+                android:textSize="30sp"
+                android:layout_marginLeft="5dp" />
+
+            <EditText
+                android:id="@+id/et_sales_des"
+                android:layout_below="@+id/et_sales_price"
+                android:layout_toRightOf="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:id="@+id/bt_sales_takephoto"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="30sp"
+                android:text="@string/takephoto"
+                android:layout_below="@+id/et_sales_des" />
+
+            <Button
+                android:id="@+id/bt_sales_chooseFromAlbum"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="30sp"
+                android:text="@string/chooseFromAlbum"
+                android:layout_below="@+id/bt_sales_takephoto" />
+
+            <ImageView
+                android:id="@+id/im_sales_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_sales_chooseFromAlbum"/>
+
+            <Button
+                android:id="@+id/bt_sales_sure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确定"
+                android:textSize="30sp"
+                android:layout_below="@+id/im_sales_picture"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 粉红色 -->
+    <color name="bg_pink">#FFC0CB</color>
+
+    <!-- 灰色 -->
+    <color name="bg_Gray">#CCCCCC</color>
+
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+
+    <!-- 黑色 -->
+    <color name="black">#ff000000</color>
+
+    <!-- 橘黄色 -->
+    <color name="orange">#FF5000</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+
+    <!-- 白色 -->
+    <color name="background">#F7F4F0</color>
+
+    <!-- 黑色 -->
+    <color name="title_color">#333333</color>
+
+    <!-- 深灰色 -->
+    <color name="gray">#7d7d7d</color>
+
+</resources>
